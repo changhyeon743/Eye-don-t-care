@@ -8,10 +8,10 @@ import UIKit
 import VMEX
 
 class ViewController: UIViewController {
-
+    
     // initialize eye-tracking session
     let sessionHandler = SessionHandler()
-     // Bool that check session open
+    // Bool that check session open
     var sessionOpened : Bool = false
     
     // gaze ui view
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
     }
     
     // resume or start eye-tracking depending on whether openSession method is called.
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         if sessionOpened {
             sessionHandler.resumeSession()
         }else{
-            //portraid demo
+            // portraiㅅ demo
             sessionHandler.openSession(receiver: self, root: self.view, mode: ScreenMode.Portrait, isCalibration: true)
             sessionOpened = true
             sessionHandler.startSession()
@@ -43,8 +43,8 @@ class ViewController: UIViewController {
         }
     }
     
-   
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -53,8 +53,8 @@ class ViewController: UIViewController {
     deinit {
         sessionHandler.closeSession()
     }
-
-
+    
+    
 }
 
 extension ViewController : Receiver {

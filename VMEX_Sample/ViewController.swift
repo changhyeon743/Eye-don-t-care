@@ -14,9 +14,9 @@ class ViewController: UIViewController {
      // Bool that check session open
     var sessionOpened : Bool = false
     
-    // gaze view
+    // gaze ui view
     var gazePt : UIView?
-    // gaze view size
+    // gaze ui view size
     var gazeSize : CGSize = CGSize(width: 10, height: 10)
     
     override func viewDidLoad() {
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     }
     
-    // Resume or start eye-tracking depending on whether openSession method is called.
+    // resume or start eye-tracking depending on whether openSession method is called.
     override func viewWillAppear(_ animated: Bool) {
         if sessionOpened {
             sessionHandler.resumeSession()
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         }
     }
     
-    // If the view disappears, the eye-tracking stops.
+    // view will disappear, the eye-tracking stops.
     override func viewWillDisappear(_ animated: Bool) {
         if sessionOpened {
             sessionHandler.pauseSession()

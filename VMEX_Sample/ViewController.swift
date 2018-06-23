@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         if sessionOpened {
             sessionHandler.resumeSession()
         }else{
-            // portraiㅅ demo
+            // portrait demo
             sessionHandler.openSession(receiver: self, root: self.view, mode: ScreenMode.Portrait, isCalibration: true)
             sessionOpened = true
             sessionHandler.startSession()

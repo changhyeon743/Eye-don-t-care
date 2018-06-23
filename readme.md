@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-<a hrf="http://visual.camp"><img src="http://visual.camp/wp-content/uploads/2017/01/logo.png" alt="VisualCamp"></a>
+<a href="http://visual.camp"><img src="http://visual.camp/wp-content/uploads/2017/01/logo.png" alt="VisualCamp"></a>
 </p>
 
 

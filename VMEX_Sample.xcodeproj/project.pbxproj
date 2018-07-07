@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		308362D841D9C9B5C248179F /* Pods_VMEX_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E430E63774F7E4E131AEEA /* Pods_VMEX_Sample.framework */; };
+		78FCBEB120EF95D900993C27 /* VMEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCBEB020EF95D900993C27 /* VMEX.framework */; };
+		78FCBEB220EF95D900993C27 /* VMEX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78FCBEB020EF95D900993C27 /* VMEX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D3A91E4D20DA1B4600ECC9A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91E4C20DA1B4600ECC9A5 /* AppDelegate.swift */; };
 		D3A91E4F20DA1B4600ECC9A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A91E4E20DA1B4600ECC9A5 /* ViewController.swift */; };
 		D3A91E5220DA1B4600ECC9A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A91E5020DA1B4600ECC9A5 /* Main.storyboard */; };
 		D3A91E5420DA1B4800ECC9A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A91E5320DA1B4800ECC9A5 /* Assets.xcassets */; };
 		D3A91E5720DA1B4800ECC9A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A91E5520DA1B4800ECC9A5 /* LaunchScreen.storyboard */; };
-		D3A91E6620DA236000ECC9A5 /* VMEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A91E6520DA236000ECC9A5 /* VMEX.framework */; };
-		D3A91E6720DA236000ECC9A5 /* VMEX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3A91E6520DA236000ECC9A5 /* VMEX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D3A91E6720DA236000ECC9A5 /* VMEX.framework in Embed Frameworks */,
+				78FCBEB220EF95D900993C27 /* VMEX.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +32,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		401C49C15CC52EB18894C752 /* Pods-VMEX_Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMEX_Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VMEX_Sample/Pods-VMEX_Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		78FCBEB020EF95D900993C27 /* VMEX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VMEX.framework; sourceTree = "<group>"; };
+		7FF12A65A86F9CEA75338274 /* Pods-VMEX_Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VMEX_Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VMEX_Sample/Pods-VMEX_Sample.release.xcconfig"; sourceTree = "<group>"; };
 		D3A91E4920DA1B4600ECC9A5 /* VMEX_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMEX_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A91E4C20DA1B4600ECC9A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3A91E4E20DA1B4600ECC9A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +43,7 @@
 		D3A91E5620DA1B4800ECC9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3A91E5820DA1B4800ECC9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3A91E6520DA236000ECC9A5 /* VMEX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VMEX.framework; sourceTree = "<group>"; };
+		E0E430E63774F7E4E131AEEA /* Pods_VMEX_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VMEX_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,19 +51,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A91E6620DA236000ECC9A5 /* VMEX.framework in Frameworks */,
+				78FCBEB120EF95D900993C27 /* VMEX.framework in Frameworks */,
+				308362D841D9C9B5C248179F /* Pods_VMEX_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5A7A83EC16B9344BEA9229 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				401C49C15CC52EB18894C752 /* Pods-VMEX_Sample.debug.xcconfig */,
+				7FF12A65A86F9CEA75338274 /* Pods-VMEX_Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		798A0D30FB68582EBD5F9236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E430E63774F7E4E131AEEA /* Pods_VMEX_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3A91E4020DA1B4600ECC9A5 = {
 			isa = PBXGroup;
 			children = (
 				D3A91E6520DA236000ECC9A5 /* VMEX.framework */,
+				78FCBEB020EF95D900993C27 /* VMEX.framework */,
 				D3A91E4B20DA1B4600ECC9A5 /* VMEX_Sample */,
 				D3A91E4A20DA1B4600ECC9A5 /* Products */,
+				1B5A7A83EC16B9344BEA9229 /* Pods */,
+				798A0D30FB68582EBD5F9236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,10 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3A91E5B20DA1B4800ECC9A5 /* Build configuration list for PBXNativeTarget "VMEX_Sample" */;
 			buildPhases = (
+				97EBDD178C6F300B02EF6B4A /* [CP] Check Pods Manifest.lock */,
 				D3A91E4520DA1B4600ECC9A5 /* Sources */,
 				D3A91E4620DA1B4600ECC9A5 /* Frameworks */,
 				D3A91E4720DA1B4600ECC9A5 /* Resources */,
 				D3A91E6120DA1BEB00ECC9A5 /* Embed Frameworks */,
+				D541FA2B24793099683AF0D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +177,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97EBDD178C6F300B02EF6B4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VMEX_Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D541FA2B24793099683AF0D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VMEX_Sample/Pods-VMEX_Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VMEX_Sample/Pods-VMEX_Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3A91E4520DA1B4600ECC9A5 /* Sources */ = {
@@ -298,21 +365,19 @@
 		};
 		D3A91E5C20DA1B4800ECC9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401C49C15CC52EB18894C752 /* Pods-VMEX_Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BMGDL6J6CA;
+				DEVELOPMENT_TEAM = A358VZ5QEA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = VMEX_Sample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "camp.visual.ios.sample.VMEX-Sample";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camp.changhyeon.VMEX-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,21 +386,19 @@
 		};
 		D3A91E5D20DA1B4800ECC9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF12A65A86F9CEA75338274 /* Pods-VMEX_Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BMGDL6J6CA;
+				DEVELOPMENT_TEAM = A358VZ5QEA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = VMEX_Sample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "camp.visual.ios.sample.VMEX-Sample";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "camp.changhyeon.VMEX-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

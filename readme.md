@@ -1,27 +1,7 @@
+#비주얼 캠프 해커톤 프로젝트
 
-<br>
-<br>
+안구 운동을 통한 눈 건강 솔루션
 
-<p align="center">
-<a href="http://visual.camp"><img src="http://visual.camp/wp-content/uploads/2017/01/logo.png" alt="VisualCamp"></a>
-</p>
+개발, 기획, 발표에 모두 관여했고 대상까지 타서 커다란 동기부여를 해준 좋은 경험.
 
-
-## VMEX (Visualcamp Moblie Eyetracking Extension)
-
-* **Xcode:** 9.3+
-* **OS:** iOS 11+
-* **Languages:** Swift 4.1+
-* **Important:** This SDK is not built on the simulator but  only built on real devices.
-
-## Getting started
-
-
-### 1. TARGETS -> General -> Embedded Binaries -> Add VMEX.framework
-
-![improt_framework](https://user-images.githubusercontent.com/16757294/41086621-89c5fe74-6a75-11e8-809c-67f7df6ed1c5.png)
-
-## Feedback
-
-- Brad [brad@visual.camp](mailto:brad@visual.camp)
-- David [david@visual.camp](mailto:david@visual.camp)
+취업하는데 혜택을 받는다고 한다.
